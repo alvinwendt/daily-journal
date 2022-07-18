@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSS Journal</title>
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+  <div>
+    <img src="img/Alvin Logo.jpg"  width="75" height="75" alt="Alvin's Journal" id="logo"> <h1>Alvin's NSS Daily Journal</h1></div>
+<main id="container">
+    <form>
+  
+      <fieldset>
+        <strong><label>Date of Entry</label></strong>
+        <input id="date" type="date" placeholder="date">
+      </fieldset>
+  
+      <fieldset>
+        <strong><label for="concepts">Concepts Covered</label></strong>
+        <input id="concepts" type="text" placeholder="List the concepts">
+      </fieldset>
+  
+      <fieldset>
+        <strong><label>Journal Entry</label></strong>
+        <textarea id="entry" placeholder="Let's talk about it" rows="8" cols="50"></textarea>
+      </fieldset>
+  
+      <fieldset>
+        <strong><label>Mood for the Day</label></strong>
+        <select id="mood">
+          <option>Select mood</option>
+          <option>😁 Bussin'</option>
+          <option>😖 Disgustin'</option>
+          <option>😐 Meh</option>
+          <option>🤪 Fun</option>
+          <option>😢 Sad</option>
+          <option>🥱 Tired</option> 
+          <option>😋 Hungry</option> 
+        </select>
+      </fieldset>
+  
+      <button id="submit" type="button"><strong>Record Journal Entry</strong></button>
+  
+    </form>
+
+    <article id="entries"></article>
+
+
+</main> 
+   
+</body>
+
+</html>

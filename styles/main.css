@@ -1,0 +1,33 @@
+/* select,
+textarea, */
+div{
+  display: flex;
+  justify-content: center;
+} 
+label{
+  display: flex;
+} 
+ #container {
+  display: flex;
+  justify-content: center
+} 
+
+body {
+  background-image:url('/img/Background.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+}
+
+img{
+  margin: 0px 15px;
+} 
+
+fieldset {
+  background: #2c0220;
+  opacity: 0.9;
+}
