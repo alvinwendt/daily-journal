@@ -31,3 +31,12 @@ fieldset {
   background: #2c0220;
   opacity: 0.9;
 }
+
+header{
+  background-color: black;
+  color:white;
+}
+
+nav{
+  color:white;
+}
