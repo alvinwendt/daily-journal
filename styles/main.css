@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  background-color: #24252A;
-} */
 
-li, a, button {
+li, a, .entry{
   font-family: "Montserrat",sans-serif;
   font-weight: 500;
   font: size 16px;
@@ -23,8 +18,8 @@ header {
 
 .logo {
 cursor:pointer;
-height: 5%;
-width:5%;
+height: 3%;
+width:3%;
 margin-right:auto;
 
 }
@@ -47,7 +42,7 @@ margin-right:auto;
   color: #0088a9;
 }
 
-button {
+.entry {
   padding:9px 25px;
   background-color: rgba(52, 20, 52,1);
   border:none;
@@ -57,7 +52,7 @@ button {
   margin-left: 20px;
 }
 
-button:hover {
+.entry:hover {
   background-color: rgba(52, 20, 52,0.8);
 }
 
@@ -87,7 +82,7 @@ body {
   height:100%;
   width:100%;
   color:white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img{
@@ -97,6 +92,7 @@ img{
 fieldset {
   background: #2c0220;
   opacity: 0.9;
+  margin:4px 0px
 }
 
 header{
@@ -106,4 +102,21 @@ header{
 
 nav{
   color:white;
+}
+
+#submit {
+  padding:9px 25px;
+  background-color: rgba(52, 20, 52,1);
+  color:white;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;  
+  margin-top: 10px;
+  border: solid 1px white ;
+  
+}
+
+#submit:hover {
+  background-color: rgba(52, 20, 52,0.8);
 }
