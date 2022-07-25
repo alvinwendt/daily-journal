@@ -21,7 +21,7 @@ cursor:pointer;
 height: 3%;
 width:3%;
 margin-right:auto;
-
+filter: invert(100%);
 }
 
 .nav_links {
