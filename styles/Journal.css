@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+li, a, .entry{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  font: size 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  text-decoration:none
+}
+
+.logo {
+cursor:pointer;
+height: 3%;
+width:3%;
+margin-right:auto;
+
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding:0px, 20px;
+  margin-left: 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+
+.entry {
+  padding:9px 25px;
+  background-color: rgba(52, 20, 52,1);
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;  
+  margin: 0 20px;
+}
+
+.entry:hover {
+  background-color: rgba(59, 115, 136,0.8);
+}
+
+h1{
+  background-color: rgba(52, 20, 52,0.8);
+  padding:8px;
+  border-radius: 10px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+} 
+
+label{
+  display: flex;
+} 
+
+#main-container {
+  /* background-image:url('https://cdn.vox-cdn.com/thumbor/_NFVWqqEnAy0YTn2ILL8RS8xZk8=/0x0:1812x1140/1200x800/filters:focal(1050x417:1338x705):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/64774925/198x_gif.0.gif'); */
+  background-repeat: round;
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  }
+
+
+ #container1 {
+  width:25%;
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 20px; */
+  /* border: 2px solid red; */
+} 
+
+#container2 {
+float: right;
+padding: 20px;
+/* border: 2px solid red; */
+justify-content: center;
+} 
+
+body {
+  background-image:url('https://cdn.vox-cdn.com/thumbor/_NFVWqqEnAy0YTn2ILL8RS8xZk8=/0x0:1812x1140/1200x800/filters:focal(1050x417:1338x705):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/64774925/198x_gif.0.gif');
+  background-color: black;
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img{
+  margin: 0px 15px;
+} 
+
+fieldset {
+  background: #2c0220;
+  opacity: 0.9;
+  margin:4px 0px
+}
+
+header{
+  background-color: black;
+  color:white;
+}
+
+nav{
+  color:white;
+}
+
+#submit {
+  padding:9px 25px;
+  background-color: rgba(52, 20, 52,1);
+  color:white;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;  
+  margin-top: 10px;
+  border: solid 1px white ;
+  
+}
+
+#submit:hover {
+  background-color: rgba(59, 115, 136,0.8);
+}
