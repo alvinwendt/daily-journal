@@ -89,4 +89,8 @@ Now use the `display: flex`, and `flex-direction: column` CSS properties to c
 
 After your form HTML, but before the closing `</main>` tag, add the following article element. You will be using this element in later chapters to display your journal entries.
 
+<<<<<<< HEAD
 `<article id="entries"></article>`
+=======
+`<article id="entries"></article>`
+>>>>>>> c9dbfc151a0d576d1e145bfb60c698614759629d
