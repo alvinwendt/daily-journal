@@ -19,10 +19,12 @@
       </nav>
       <a class="cta" href="#"><button class="entry">New Entry</button></a>
     </header>
+    <section class="newEntries">
     <div>
       <h1>Alvin's NSS Daily Journal</h1>
     </div>
     <main id="container">
+
       <form>
         <fieldset>
           <strong><label>Date of Entry</label></strong>
@@ -62,8 +64,13 @@
           <strong>Record Journal Entry</strong>
         </button>
       </form>
+    </section>
+    <section id="pastEntries">
+    <article id="entries"></article>
+  </section>
 
-      <article id="entries"></article>
+
     </main>
+    <script type="module" src="./scripts/journal.js"></script>
   </body>
 </html>
