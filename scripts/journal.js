@@ -8,7 +8,7 @@ const displayEntries = () => {
       <p>${jentries[i].concept}</p>
       <p>${jentries[i].date}</p>
       <p>${jentries[i].mood}</p>
-      <p>${jentries[i].entry}</p>
+      <p class="cardEntry">${jentries[i].entry}</p>
     </div>`;
   }
 

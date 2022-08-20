@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NSS Journal</title>
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="img/Alvin Logo.jpg" alt="logo" />
-      <nav>
-        <ul class="nav_links">
-          <li><a href="#">How to Use</a></li>
-          <li><a href="#">Previous Entries</a></li>
-        </ul>
-      </nav>
-      <a class="cta" href="#"><button class="entry">New Entry</button></a>
-    </header>
-    <section class="newEntries">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSS Journal</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="img/Alvin Logo.jpg" alt="logo" />
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#">How to Use</a></li>
+        <li><a href="#">Previous Entries</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#"><button class="entry">New Entry</button></a>
+  </header>
+  <section class="newEntries">
     <div>
       <h1>Alvin's NSS Daily Journal</h1>
     </div>
@@ -38,12 +39,7 @@
 
         <fieldset>
           <strong><label>Journal Entry</label></strong>
-          <textarea
-            id="entry"
-            placeholder="Let's talk about it"
-            rows="8"
-            cols="50"
-          ></textarea>
+          <textarea id="entry" placeholder="Let's talk about it" rows="8" cols="50"></textarea>
         </fieldset>
 
         <fieldset>
@@ -64,13 +60,12 @@
           <strong>Record Journal Entry</strong>
         </button>
       </form>
-    </section>
-    <section id="pastEntries">
+  </section>
+  <section id="pastEntries">
     <article id="entries"></article>
   </section>
+  </main>
+  <script type="module" src="./scripts/journal.js"></script>
+</body>
 
-
-    </main>
-    <script type="module" src="./scripts/journal.js"></script>
-  </body>
 </html>
