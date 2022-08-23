@@ -107,7 +107,7 @@ label {
 }
 
 .single {
-  background-color: rgba(52, 20, 52, 0.8);
+  background-color: rgba(52, 20, 52);
   border-radius: 50px;
   min-height: 400px;
   max-height: 400px;
@@ -125,6 +125,11 @@ label {
   max-width: 350px;
   display: flex;
   justify-content: center;
+}
+
+#conceptjs {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 #entries {
@@ -152,7 +157,7 @@ label {
 }
 
 #submit:hover {
-  background-color: rgba(59, 115, 136, 0.8);
+  background-color: rgba(59, 115, 136, 1);
 }
 
 #entry {

@@ -25,7 +25,7 @@ const jentries = [
   {
     id: 4,
     date: "07/19/2022",
-    concept: "Yin Yang Project",
+    concept: "Yin Yang Project Part 1",
     entry:
       "Working through getting project structure setup and spliting work responsibility",
     mood: "🥱 Tired",
@@ -33,9 +33,30 @@ const jentries = [
   {
     id: 5,
     date: "07/23/2022",
-    concept: "Yin Yang Project",
+    concept: "Yin Yang Project Part 1",
     entry: "Agreed on theme and came together with congruent CSS Theme",
     mood: "😋 Hungry",
+  },
+  {
+    id: 6,
+    date: "07/25/2022",
+    concept: "Yin Yang Project Part 2",
+    entry: "Learned more about clean and readable code",
+    mood: "😁 Bussin'",
+  },
+  {
+    id: 7,
+    date: "07/26/2022",
+    concept: "Yin Yang Project Part 2",
+    entry: "Added links and a header to complete page",
+    mood: "🤪 Fun",
+  },
+  {
+    id: 8,
+    date: "07/30/2022",
+    concept: "Leonids Toys",
+    entry: "Worked on Leonids Toys project. Not very interesting",
+    mood: "😢 Sad",
   },
 ];
 
