@@ -21,51 +21,18 @@
     <a class="cta" href="#"><button class="entry">New Entry</button></a>
   </header>
   <section class="newEntries">
-    <div>
-      <h1>Alvin's NSS Daily Journal</h1>
-    </div>
+
     <main id="container">
 
-      <form>
-        <fieldset>
-          <strong><label>Date of Entry</label></strong>
-          <input id="date" type="date" placeholder="date" />
-        </fieldset>
+      <form id="formEntry">
 
-        <fieldset>
-          <strong><label for="concepts">Concepts Covered</label></strong>
-          <input id="concepts" type="text" placeholder="List the concepts" />
-        </fieldset>
-
-        <fieldset>
-          <strong><label>Journal Entry</label></strong>
-          <textarea id="entry" placeholder="Let's talk about it" rows="8" cols="50"></textarea>
-        </fieldset>
-
-        <fieldset>
-          <strong><label>Mood for the Day</label></strong>
-          <select id="mood">
-            <option>Select mood</option>
-            <option>😁 Bussin'</option>
-            <option>😖 Disgustin'</option>
-            <option>😐 Meh</option>
-            <option>🤪 Fun</option>
-            <option>😢 Sad</option>
-            <option>🥱 Tired</option>
-            <option>😋 Hungry</option>
-          </select>
-        </fieldset>
-
-        <button id="submit" type="button">
-          <strong>Record Journal Entry</strong>
-        </button>
       </form>
   </section>
   <section id="pastEntries">
     <article id="entries"></article>
   </section>
   </main>
-  <script type="module" src="./scripts/journal.js"></script>
+  <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>
